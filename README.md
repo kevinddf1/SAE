@@ -22,6 +22,7 @@ https://docs.google.com/presentation/d/1F1tObViWeO_aYeNZInMY5V9tLF0RqI6NeI7C-v87
 `roslaunch vehicle_simulator system_garage.launch`
 
 2. Run program:\
+`cd SAE_planner`\
 `catkin_make`\
 `source devel/setup.sh`\
 `roslaunch tare_planner explore_garage.launch`
