@@ -11,18 +11,18 @@ Description: Selective Autonomous Exploration (SAE) is a method designed for aut
 https://docs.google.com/presentation/d/1F1tObViWeO_aYeNZInMY5V9tLF0RqI6NeI7C-v87Fkk/edit?usp=sharing
 
 ## Instructions
-1. Download and Run Develop Enviroment
-`sudo apt update`
-`sudo apt install libusb-dev`
-`cd autonomous_exploration_development_environment`
-`git checkout distribution`
-`catkin_make`
-`./src/vehicle_simulator/mesh/download_environments.sh`
-`source devel/setup.sh`
+1. Download and run the development environment\
+`sudo apt update`\
+`sudo apt install libusb-dev`\
+`cd autonomous_exploration_development_environment`\
+`git checkout distribution`\
+`catkin_make`\
+`./src/vehicle_simulator/mesh/download_environments.sh`\
+`source devel/setup.sh`\
 `roslaunch vehicle_simulator system_garage.launch`
 
-2. Run program:
-`catkin_make`
-`source devel/setup.sh`
+2. Run program:\
+`catkin_make`\
+`source devel/setup.sh`\
 `roslaunch tare_planner explore_garage.launch`
 
