@@ -1,0 +1,2 @@
+/usr/bin/ar qc /project/ding0322/tare_planner/devel/lib/libgraph.a  CMakeFiles/graph.dir/src/graph/graph.cpp.o
+/usr/bin/ranlib /project/ding0322/tare_planner/devel/lib/libgraph.a

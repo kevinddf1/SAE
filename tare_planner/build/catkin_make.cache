@@ -1,0 +1,2 @@
+tare_planner
+-DCATKIN_DEVEL_PREFIX=/project/ding0322/tare_planner/devel -DCMAKE_INSTALL_PREFIX=/project/ding0322/tare_planner/install -G Unix Makefiles
